@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:clickable="true">
+
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="4"
+        android:columnCount="1"
+        android:clickable="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMyDrawers"
+            android:layout_margin="2sp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#728a74"
+            android:clickable="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="MyDrawers"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMyCabinet"
+            android:layout_margin="2sp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#cb707f">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="MyCabinet"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutShareCombinations"
+            android:layout_margin="2sp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#8eb9b9">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Share Combinations"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMyActivities"
+            android:layout_margin="2sp"
+            android:orientation="vertical"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#7a7ca9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="MyActivities"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </GridLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

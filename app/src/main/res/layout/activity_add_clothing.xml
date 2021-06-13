@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".AddClothingActivity">
+
+    <LinearLayout
+        android:id="@+id/menu_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E8B9B9"
+            android:layout_margin="1dp">
+
+            <LinearLayout
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3E6E1"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="ADD CLOTHING"
+                    android:textColor="@color/white"
+                    android:textStyle="italic"
+                    android:textSize="20dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonAddClothing"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_button"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_add" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/clothingType"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="#DAB3B3"
+                        android:textSize="18dp"
+                        android:hint="Type"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/clothingColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="#F1CECE"
+                        android:textSize="16dp"
+                        android:hint="Color"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/clothingPattern"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:background="#DAB3B3"
+                        android:textSize="16dp"
+                        android:hint="Pattern"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/clothingDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:background="#F1CECE"
+                        android:textSize="16dp"
+                        android:hint="Date"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/clothingCost"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:background="#DAB3B3"
+                        android:textSize="16dp"
+                        android:hint="Cost"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/buttonsReturnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/imageButtonReturn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/round_button"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_return" />
+
+
+                    <Button
+                        android:id="@+id/buttonSave"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:padding="10dp"
+                        android:text="SAVE"
+                        android:textSize="12dp"
+                        android:backgroundTint="#E68F8F" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

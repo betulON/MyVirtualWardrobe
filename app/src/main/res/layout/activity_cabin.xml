@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="#DDC4B2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:padding="5dp"
+                android:text="MyCabin"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"></TextView>
+            <EditText
+                android:id="@+id/editTextMyCabinName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DAAB99"
+                android:hint="myOutfit"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColorHint="@color/white">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMyCabinetHead"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C1C0D3"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:src="@drawable/ic_tshirt">-->
+<!--                -->
+<!--            </ImageView>-->
+
+            <ImageButton
+                android:id="@+id/imageButtonMyCabinHead"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="#C1C0D3"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_head">
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMyCabinetFace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DAD9E4"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imageButtonMyCabinFace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:backgroundTint="#DAD9E4"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_face">
+
+            </ImageButton>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMyCabinetTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C1C0D3"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imageButtonMyCabinTop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:backgroundTint="#C1C0D3"
+                android:src="@drawable/ic_tshirt">
+
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMyCabinetBottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DAD9E4"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imageButtonMyCabinBottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="#DAD9E4"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_bottom">
+
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutMyCabinetShoes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C1C0D3"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imageButtonMyCabinShoes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:backgroundTint="#C1C0D3"
+                android:src="@drawable/ic_shoes">
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#DDC4B2"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/myCabinetButtonReturn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.01"
+                android:backgroundTint="#DDC4B2"
+                android:textSize="12dp"
+                android:text="RETURN">
+            </Button>
+
+            <Button
+                android:id="@+id/myCabinetButtonDelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.01"
+                android:backgroundTint="#DDC4B2"
+                android:textSize="12dp"
+                android:text="DELETE">
+            </Button>
+
+            <Button
+                android:id="@+id/myCabinetButtonSave"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.01"
+                android:backgroundTint="#DDC4B2"
+                android:textSize="12dp"
+                android:text="SAVE">
+            </Button>
+
+            <Button
+                android:id="@+id/myCabinetButtonGet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.01"
+                android:backgroundTint="#DDC4B2"
+                android:textSize="12dp"
+                android:text="GET">
+            </Button>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
